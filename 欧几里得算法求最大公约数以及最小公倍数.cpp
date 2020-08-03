@@ -6,13 +6,10 @@
 int main(int argc, char *argv[]) {
 	int a,b,y;
 	int c=0;
-	
 	printf("please input your numbers(2):\n");
 	scanf("%d%d",&a,&b);
 	y=a*b;
-	if(a<=b)
-	else
-	{
+	if(a<=b){
 		a=a+b;
 		b=a-b;
 		a=a-b;
