@@ -42,13 +42,12 @@ int main(int argc, char *argv[]) {
 	printf("请输入你的数字(位数在100以内）:\n");
 	while(scanf("%c",&input))
 	{
-	  	if(input=='\n')
-            break;
-      else
-      {
+	     if(input=='\n')  break;
+             else
+            {
         	s[count]=input;
         	count++;
-	  	}
+	    }
 	}
 	printf("您输入的数字一共%d位数\n\n",count);
 	//求元素的排序：例如第一个元素需要和剩下的n-1个比较
