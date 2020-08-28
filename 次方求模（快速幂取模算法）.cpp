@@ -15,8 +15,8 @@ int main(void)
     scanf("%d",&n);
     while (n--)
     {
-        scanf("%lld%lld%lld",&a,&b,&c);
-        printf("%lld\n",fun(a,b,c));
+        scanf("%ld%ld%ld",&a,&b,&c);
+        printf("%ld\n",fun(a,b,c));
     }
     return 0;
 }
@@ -47,7 +47,7 @@ int main(void)
 	scanf("%d",&n);
 	while(n--)
 	{
-		scanf("%lld%lld%lld",&a,&b,&c);
+		scanf("%ld%ld%ld",&a,&b,&c);
 	     printf("%d\n",fun(a,b,c));
 	}
 	return 0;
