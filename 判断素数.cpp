@@ -1,4 +1,4 @@
-//筛法求素数
+//判断素数
 //
 #include <stdio.h>
 #include <stdlib.h>
