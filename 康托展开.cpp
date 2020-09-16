@@ -22,7 +22,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */ 
+
 //此函数为生成1到n的阶乘表
 int jiecheng(int n)
 {
@@ -35,8 +35,8 @@ int jiecheng(int n)
 
 int main(int argc, char *argv[]) {
 	int count=0,i=0,j=0,k=0,sum=0;
-	int n[100];
-	char s[100];
+	int n[1000];
+	char s[1000];
 	char input;
 	//获取所有的元素：1,2,3,4..... 
 	printf("请输入你的数字(位数在100以内）:\n");
